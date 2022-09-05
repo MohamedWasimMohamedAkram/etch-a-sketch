@@ -12,3 +12,24 @@ body{
     float:left;
     padding-top:100%;
 }
+
+.newGridBtn{
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    border: 2px solid rgb(83, 0, 109);
+    background-color: white;
+    transition: 0.3s;
+}
+
+.newGridBtn:hover{
+    background-color: rgb(83, 0, 109);
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+
+.buttonDiv{
+    text-align: center;
+    margin-bottom: 15px;
+}
